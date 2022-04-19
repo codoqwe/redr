@@ -1,8 +1,0 @@
-isPrevious: false
-Build: Android/SM-A520F/x86_64:7.1.2/SM-A520F/4931629:user/release-keys
-Hardware: unknown
-Revision: 0
-Bootloader: unknown
-Radio: unknown
-Kernel: Linux version 5.4.0-29-generic (buildd@lgw01-amd64-035) (gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2)) #33-Ubuntu SMP Wed Apr 29 14:32:27 UTC 2020
-
