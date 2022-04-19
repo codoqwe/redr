@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<user locales="ru-RU" last-app-scan-time2="1650012089331" last-app-scan-fp="Android/SM-A520F/x86_64:7.1.2/SM-A520F/4931629:user/release-keys">
+<launcher value="com.android.launcher/com.android.launcher2.Launcher" />
+<package name="com.android.settings" call-count="0" last-reset="0">
+<package-info version="27" last_udpate_time="1641589017000" />
+<shortcut id="manifest-shortcut-wifi" activity="com.android.settings/com.android.settings.Settings" title="Wi-Fi" titleid="2131889705" titlename="wifi_settings" textid="0" dmessageid="0" timestamp="1650012098155" rank="0" flags="420" icon-res="2131231023" icon-resname="drawable/ic_shortcut_wireless">
+<intent intent-base="#Intent;action=android.settings.WIFI_SETTINGS;launchFlags=0x1000c000;end" />
+</shortcut>
+<shortcut id="manifest-shortcut-battery" activity="com.android.settings/com.android.settings.Settings" title="Батарея" titleid="2131888289" titlename="power_usage_summary_title" textid="0" dmessageid="0" timestamp="1650012098155" rank="2" flags="420" icon-res="2131231021" icon-resname="drawable/ic_shortcut_battery">
+<intent intent-base="#Intent;action=android.intent.action.POWER_USAGE_SUMMARY;launchFlags=0x1000c000;end" />
+</shortcut>
+<shortcut id="manifest-shortcut-data-usage" activity="com.android.settings/com.android.settings.Settings" title="Передача данных" titleid="2131887073" titlename="data_usage_summary_title" textid="0" dmessageid="0" timestamp="1650012098155" rank="1" flags="420" icon-res="2131231022" icon-resname="drawable/ic_shortcut_data_usage">
+<intent intent-base="#Intent;action=android.intent.action.MAIN;launchFlags=0x1000c000;component=com.android.settings/.Settings%24DataUsageSummaryActivity;end" />
+</shortcut>
+</package>
+</user>

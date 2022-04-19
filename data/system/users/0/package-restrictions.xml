@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<package-restrictions>
+    <pkg name="com.android.cts.priv.ctsshim" ceDataInode="512855" stopped="true" enabled="1"  />
+    <pkg name="com.android.providers.telephony" ceDataInode="512693" stopped="true" enabled="1"  />
+    <pkg name="com.android.providers.calendar" ceDataInode="512870" stopped="true" enabled="1"  />
+    <pkg name="com.android.providers.media" ceDataInode="512879" stopped="true" enabled="1"  />
+    <pkg name="com.android.wallpapercropper" ceDataInode="512888" stopped="true" enabled="1"  />
+    <pkg name="com.android.launcher" ceDataInode="512897" />
+    <pkg name="com.android.documentsui" ceDataInode="512906" stopped="true" enabled="1"  />
+    <pkg name="com.android.externalstorage" ceDataInode="512915" stopped="true" enabled="1"  />
+    <pkg name="com.android.htmlviewer" ceDataInode="512924" stopped="true" enabled="1"  />
+    <pkg name="com.android.companiondevicemanager" ceDataInode="512933" />
+    <pkg name="com.android.quicksearchbox" ceDataInode="512942" />
+    <pkg name="com.android.mms.service" ceDataInode="512716" stopped="true" enabled="1"  />
+    <pkg name="com.android.providers.downloads" ceDataInode="512951" stopped="true" enabled="1"  />
+    <pkg name="com.android.defcontainer" ceDataInode="512727" />
+    <pkg name="com.android.providers.downloads.ui" ceDataInode="512960" stopped="true" enabled="1"  />
+    <pkg name="com.android.pacprocessor" ceDataInode="512969" stopped="true" enabled="1"  />
+    <pkg name="com.android.certinstaller" ceDataInode="512978" stopped="true" enabled="1"  />
+    <pkg name="android" ceDataInode="512736" />
+    <pkg name="com.android.contacts" ceDataInode="512987" stopped="true" enabled="1"  />
+    <pkg name="com.android.camera2" ceDataInode="512996" stopped="true" enabled="1" >
+        <disabled-components>
+            <item name="com.android.camera.DisableCameraReceiver" />
+            <item name="com.android.camera.CameraLauncher" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.egg" ceDataInode="513005" stopped="true" enabled="1"  />
+    <pkg name="com.android.mtp" ceDataInode="513014" stopped="true" enabled="1"  />
+    <pkg name="com.android.nfc" ceDataInode="513023" enabled="2" enabledCaller="com.android.nfc" />
+    <pkg name="com.android.backupconfirm" ceDataInode="513031" stopped="true" enabled="1"  />
+    <pkg name="com.android.provision" ceDataInode="513040" stopped="true" enabled="1" >
+        <disabled-components>
+            <item name="com.android.provision.DefaultActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.statementservice" ceDataInode="513049" stopped="true" enabled="1"  />
+    <pkg name="com.android.calendar" ceDataInode="513058" stopped="true" enabled="1" >
+        <disabled-components>
+            <item name="com.android.calendar.UpgradeReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.systemui.theme.dark" ceDataInode="513067" />
+    <pkg name="com.android.providers.settings" ceDataInode="512744" stopped="true" enabled="1"  />
+    <pkg name="com.android.sharedstoragebackup" ceDataInode="513076" stopped="true" enabled="1"  />
+    <pkg name="com.android.printspooler" ceDataInode="513085" stopped="true" enabled="1"  />
+    <pkg name="com.android.dreams.basic" ceDataInode="513094" stopped="true" enabled="1"  />
+    <pkg name="com.android.webview" ceDataInode="513103" stopped="true" enabled="1"  />
+    <pkg name="com.android.inputdevices" ceDataInode="512752" stopped="true" enabled="1"  />
+    <pkg name="com.android.bips" ceDataInode="513113" />
+    <pkg name="com.android.musicfx" ceDataInode="513127" stopped="true" enabled="1"  />
+    <pkg name="android.ext.shared" ceDataInode="512760" />
+    <pkg name="com.android.onetimeinitializer" ceDataInode="513136" stopped="true" enabled="1"  />
+    <pkg name="com.android.server.telecom" ceDataInode="512769" stopped="true" enabled="1"  />
+    <pkg name="com.android.keychain" ceDataInode="513145" stopped="true" enabled="1"  />
+    <pkg name="com.android.printservice.recommendation" ceDataInode="513153" stopped="true" enabled="1"  />
+    <pkg name="com.android.gallery3d" ceDataInode="513162" stopped="true" enabled="1" >
+        <disabled-components>
+            <item name="com.android.camera.DisableCameraReceiver" />
+            <item name="com.android.camera.CameraLauncher" />
+        </disabled-components>
+    </pkg>
+    <pkg name="android.ext.services" ceDataInode="512777" />
+    <pkg name="com.android.packageinstaller" ceDataInode="512786" stopped="true" enabled="1"  />
+    <pkg name="com.svox.pico" ceDataInode="513171" stopped="true" enabled="1"  />
+    <pkg name="com.android.proxyhandler" ceDataInode="512795" stopped="true" enabled="1"  />
+    <pkg name="com.android.inputmethod.latin" ceDataInode="512804">
+        <disabled-components>
+            <item name="com.android.inputmethod.latin.setup.SetupActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="org.chromium.webview_shell" ceDataInode="513181" />
+    <pkg name="com.android.managedprovisioning" ceDataInode="513190" stopped="true" enabled="1"  />
+    <pkg name="com.android.dreams.phototable" ceDataInode="513199" stopped="true" enabled="1"  />
+    <pkg name="com.android.smspush" ceDataInode="513208" stopped="true" enabled="1"  />
+    <pkg name="com.android.wallpaper.livepicker" ceDataInode="513217" stopped="true" enabled="1"  />
+    <pkg name="com.android.storagemanager" ceDataInode="513226" stopped="true" enabled="1"  />
+    <pkg name="jp.co.omronsoft.openwnn" ceDataInode="513235" stopped="true" enabled="1"  />
+    <pkg name="com.android.bookmarkprovider" ceDataInode="513244" stopped="true" enabled="1"  />
+    <pkg name="com.android.settings" ceDataInode="512813">
+        <enabled-components>
+            <item name="com.android.settings.WebViewImplementation" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.android.settings.CryptKeeper" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.calculator2" ceDataInode="513253" stopped="true" enabled="1"  />
+    <pkg name="com.android.cts.ctsshim" ceDataInode="513262" stopped="true" enabled="1"  />
+    <pkg name="com.android.vpndialogs" ceDataInode="513271" stopped="true" enabled="1"  />
+    <pkg name="com.android.email" ceDataInode="513280" stopped="true" enabled="1" >
+        <disabled-components>
+            <item name="com.android.email.service.EasAuthenticatorServiceAlternate" />
+            <item name="com.android.email.service.EmailUpgradeBroadcastReceiver" />
+            <item name="com.android.email.service.LegacyEmailAuthenticatorService" />
+            <item name="com.android.email.service.LegacyEasAuthenticatorService" />
+            <item name="com.android.email.service.EasAuthenticatorService" />
+            <item name="com.android.email.service.AttachmentService" />
+            <item name="com.android.email.activity.ComposeActivityEmail" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.music" ceDataInode="513289" stopped="true" enabled="1"  />
+    <pkg name="com.android.phone" ceDataInode="512821" stopped="true" enabled="1"  />
+    <pkg name="com.android.shell" ceDataInode="512829" stopped="true" enabled="1"  />
+    <pkg name="com.android.wallpaperbackup" ceDataInode="513298" stopped="true" enabled="1"  />
+    <pkg name="com.android.providers.blockednumber" ceDataInode="513309" stopped="true" enabled="1"  />
+    <pkg name="com.android.providers.userdictionary" ceDataInode="513315" stopped="true" enabled="1"  />
+    <pkg name="com.android.location.fused" ceDataInode="512837" stopped="true" enabled="1"  />
+    <pkg name="com.android.deskclock" ceDataInode="513324" stopped="true" enabled="1"  />
+    <pkg name="com.android.systemui" ceDataInode="512845" stopped="true" enabled="1"  />
+    <pkg name="com.android.bluetoothmidiservice" ceDataInode="513333" stopped="true" enabled="1"  />
+    <pkg name="com.android.bluetooth" ceDataInode="513345" stopped="true" enabled="1"  />
+    <pkg name="com.android.providers.contacts" ceDataInode="513350" stopped="true" enabled="1"  />
+    <pkg name="com.android.captiveportallogin" ceDataInode="513359" stopped="true" enabled="1"  />
+    <preferred-activities />
+    <persistent-preferred-activities />
+    <crossProfile-intent-filters />
+    <default-apps />
+</package-restrictions>

@@ -1,0 +1,6 @@
+2022-04-15 08:41:27.617 126 Sync manager initialized: Android/SM-A520F/x86_64:7.1.2/SM-A520F/4931629:user/release-keys
+2022-04-15 08:41:27.865 126 onStartUser: user=0
+2022-04-15 08:41:28.117 126 rescheduleSyncs() ep=ALL ACCS/ALL PDRS:u-1 why=network reconnect
+2022-04-15 08:41:28.123 126 Loaded persisted syncs: 0 periodic syncs, 0 oneshot syncs, 6 total system server jobs, JobStats: FirstLoad: 0/0/0 LastSave: -1/-1/-1
+2022-04-15 08:41:29.292 158 onUnlockUser: user=0
+2022-04-15 08:41:29.851 157 updateRunningAccountsH: []

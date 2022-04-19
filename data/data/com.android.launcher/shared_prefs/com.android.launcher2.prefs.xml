@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="apps.new.page" value="-1" />
+    <string name="android.incremental.version">eng.frank.20220107.192230</string>
+</map>
